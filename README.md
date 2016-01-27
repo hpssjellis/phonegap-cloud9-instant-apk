@@ -3,7 +3,7 @@ Using a bash file to install both Phonegap and Android-SDK and Java JDK and ant 
 
 
 
-Assumes sone ability with cloud9. 
+Assumes some ability with cloud9. 
 
 
 setup a custom workspace using this github repository
@@ -13,4 +13,11 @@ right click setup.sh and select run
 or in a terminal 
 
 bash setup.sh
+
+
+Then on the menu find preview --> Preview Running Application to find your .apk to load on your phone.
+
+
+other helper rocksetta files you can also run.
+
 
