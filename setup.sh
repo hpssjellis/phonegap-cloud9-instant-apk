@@ -204,8 +204,8 @@ Echo "Now the fun part, Lets make the Hello World App"
 echo "Enter a folder name, no spaces, no dashes, underscore allowed, for your app and folder example: helloWorld"
 wow4=helloWorld
 
-phonegap create $wow4
-
+phonegap create $wow4 --name $wow4 --id com.$wow4.$wow4
+#phonegap create hello --name HelloWorld --id com.example.hello
 
 #android create project \
 #--target android-20 \
@@ -227,7 +227,8 @@ phonegap create $wow4
 cd $wow4
 
 
-phonegap add android
+phonegap platform add android
+
 
 phonegap build android
 
