@@ -69,14 +69,14 @@ phonegap plugin add https://github.com/xseignard/cordovarduino.git
 cd ..
 
 
-cp serial_communication.css /home/ubuntu/workspace/SimpleSerialApp/www/css/serial_communication.css
+cp serial_communication.css /home/ubuntu/workspace/$wow4/www/css/serial_communication.css
 
-cp serial_communication.html /home/ubuntu/workspace/SimpleSerialApp/www/serial_communication.html
+cp serial_communication.html /home/ubuntu/workspace/$wow4/www/serial_communication.html
 
 
-cp serial_communication.js /home/ubuntu/workspace/SimpleSerialApp/www/js/serial_communication.js
+cp serial_communication.js /home/ubuntu/workspace/$wow4/www/js/serial_communication.js
 
-cp index.js /home/ubuntu/workspace/SimpleSerialApp/www/js/index.js
+cp index.js /home/ubuntu/workspace/$wow4/www/js/index.js
 
 
 cd $wow4
