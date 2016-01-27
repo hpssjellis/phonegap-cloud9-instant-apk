@@ -31,8 +31,15 @@ phonegap create $wow4 --name $wow4 --id com.$wow4.$wow4
 cd $wow4
 
 
-phonegap platform add android
 
+
+phonegap plugin add https://github.com/xseignard/cordovarduino.git
+
+#phonegap plugin add https://github.com/randynwalsh/cordovarduino.git   
+
+phonegap plugin add https://github.com/fabiomig/serialport-plugin.git
+
+phonegap platform add android
 
 phonegap build android
 
