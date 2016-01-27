@@ -46,7 +46,7 @@ phonegap build android
 cd platforms/android/build/outputs/apk/
 #https://phonegap-android-02-jerteach.c9users.io/helloWorld/platforms/android/build/outputs/apk/
 
-printf "\n\n<a href='$wow4/platforms/android/build/outputs/apk/$wow4-debug.apk'>$wow4/platforms/android/build/outputs/apk/$wow4-debug.apk</a><br>"  >> /home/ubuntu/workspace/index.html
+printf "\n\n<a href='$wow4/platforms/android/build/outputs/apk/$wow4-debug.apk'>$wow4/platforms/android/build/outputs/apk/android-debug.apk</a><br>"  >> /home/ubuntu/workspace/index.html
 
 
 
