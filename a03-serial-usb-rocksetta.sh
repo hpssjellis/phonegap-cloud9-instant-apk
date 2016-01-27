@@ -1,7 +1,7 @@
 #!/bin/bash  
 
 #  only need to run this script with the command (do not type the #)
-#  bash a06-rocksetta-setup-android.sh
+#  bash a03-serial-usb-rocksetta.sh
 # best in cloud 9 to just right click this file and select run
 
 
@@ -33,7 +33,7 @@ cd $wow4
 
 
 
-phonegap plugin add https://github.com/xseignard/cordovarduino.git
+#phonegap plugin add https://github.com/xseignard/cordovarduino.git
 
 #phonegap plugin add https://github.com/randynwalsh/cordovarduino.git   
 
