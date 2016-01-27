@@ -9,7 +9,7 @@
 echo "A bit redundant but cordova can be installed as well"
 npm install -g cordova
 
-git clone #https://github.com/DynamicRemo/SimpleSerialApp.git
+git clone https://github.com/DynamicRemo/SimpleSerialApp.git
 
 
 
