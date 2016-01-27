@@ -238,10 +238,10 @@ phonegap build android
 
 #ant debug
 
-cd bin
+cd platforms/android/build/outputs/apk/
+#https://phonegap-android-02-jerteach.c9users.io/helloWorld/platforms/android/build/outputs/apk/
 
-
-printf "\n\n<a href='$wow4/bin/$wow4-debug.apk'>$wow4/bin/$wow4-debug.apk</a><br>"  >> /home/ubuntu/workspace/index.html
+printf "\n\n<a href='$wow4/platforms/android/build/outputs/apk/$wow4-debug.apk'>$wow4/platforms/android/build/outputs/apk/$wow4-debug.apk</a><br>"  >> /home/ubuntu/workspace/index.html
 
 
 
@@ -250,9 +250,6 @@ ls -l
 
 echo "Look for you new android $wow4/bin $wow4-debug.apk"
 echo "rightclick run index.html, then preview-preview running application to view webpage with .apk"
-
-
-
 
 
 
