@@ -7,9 +7,9 @@
 # http://dynamicremo.blogspot.ca/2015/07/simple-serial-communication-app-using.html
 
 echo "A bit redundant but cordova can be installed as well"
-npm install -g cordova
+#npm install -g cordova
 
-git clone https://github.com/DynamicRemo/SimpleSerialApp.git
+#git clone https://github.com/DynamicRemo/SimpleSerialApp.git
 
 
 
@@ -19,6 +19,8 @@ echo "you have got to read http://dynamicremo.blogspot.ca/2015/07/simple-serial-
 
 #echo "Enter a folder name, no spaces, no dashes, underscore allowed, for your app and folder example: helloWorld"
 #read wow4
+
+
 
 #phonegap create $wow4 --name $wow4 --id com.$wow4.$wow4
 #phonegap create hello --name HelloWorld --id com.example.hello
@@ -40,17 +42,20 @@ echo "you have got to read http://dynamicremo.blogspot.ca/2015/07/simple-serial-
 
 #android update project --name $wow4 --target android-20 --path $wow4
 
-cd SimpleSerialApp
-
-
-#phonegap create SimpleSerialApp com.dynamicremo.simpleserialapp SimpleSerialApp
 #cd SimpleSerialApp
 
-#phonegap plugin add https://github.com/xseignard/cordovarduino.git
 
-#phonegap platform add android
+phonegap create SimpleSerialApp com.dynamicremo.simpleserialapp SimpleSerialApp
 
-#phonegap build android
+cd SimpleSerialApp
+
+phonegap platform add android
+
+phonegap plugin add https://github.com/xseignard/cordovarduino.git
+
+
+
+phonegap build android
 
 
 
