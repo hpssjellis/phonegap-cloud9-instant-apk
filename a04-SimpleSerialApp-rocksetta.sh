@@ -47,11 +47,6 @@ echo "you have got to read http://dynamicremo.blogspot.ca/2015/07/simple-serial-
 
 phonegap create SimpleSerialApp com.dynamicremo.simpleserialapp SimpleSerialApp
 
-cd SimpleSerialApp
-
-phonegap platform add android
-
-phonegap plugin add https://github.com/xseignard/cordovarduino.git
 
 
 cp serial_communication.css /home/ubuntu/workspace/SimpleSerialApp/www/css/serial_communication.css
@@ -66,6 +61,11 @@ cp index.js /home/ubuntu/workspace/SimpleSerialApp/www/js/index.js
 
 
 
+cd SimpleSerialApp
+
+phonegap platform add android
+
+phonegap plugin add https://github.com/xseignard/cordovarduino.git
 
 
 phonegap build android
