@@ -203,7 +203,9 @@ Echo "Now the fun part, Lets make the Hello World App"
 
 cd ~/workspace
 
-echo "Enter a folder name, no spaces, no dashes, underscore allowed, for your app and folder example: helloWorld"
+echo "Auto making the helloWorld Phonegap project"
+
+#echo "Enter a folder name, no spaces, no dashes, underscore allowed, for your app and folder example: helloWorld"
 wow4=helloWorld
 
 phonegap create $wow4 --name $wow4 --id com.$wow4.$wow4
