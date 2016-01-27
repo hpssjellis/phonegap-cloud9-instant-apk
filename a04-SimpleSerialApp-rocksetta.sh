@@ -96,7 +96,7 @@ phonegap build android
 cd platforms/android/build/outputs/apk/
 #https://phonegap-android-02-jerteach.c9users.io/helloWorld/platforms/android/build/outputs/apk/
 
-printf "\n\n<a href='SimpleSerialApp/platforms/android/ant-build/HelloWorld-debug.apk'>SimpleSerialApp/platforms/android/ant-build/HelloWorld-debug.apk</a><br>"  >> /home/ubuntu/workspace/index.html
+printf "\n\n<a href='SimpleSerialApp/platforms/android/build/outputs/apk/android-debug.apk'>SimpleSerialApp/platforms/android/build/outputs/apk/android-debug.apk</a><br>"  >> /home/ubuntu/workspace/index.html
 
 
 
