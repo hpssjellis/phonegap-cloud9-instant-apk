@@ -53,5 +53,15 @@ printf "\n\n<a href='$wow4/platforms/android/build/outputs/apk/$wow4-debug.apk'>
 ls -l
 
 
+cd ~/workspace/$wow4/platforms/android/assets/www
+
+echo "Here is your index.html main webpage in the $wow4/platforms/android/assets/www folder"
+ls -l
+
+cd ~/workspace
+
+
+
+
 echo "Look for you new android $wow4/bin $wow4-debug.apk"
 echo "rightclick run index.html, then preview-preview running application to view webpage with .apk"
