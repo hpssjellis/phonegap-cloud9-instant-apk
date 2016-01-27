@@ -201,6 +201,7 @@ Echo "Now the fun part, Lets make the Hello World App"
 
 #change hello-world to the name of your app and folder
 
+cd ~/workspace
 
 echo "Enter a folder name, no spaces, no dashes, underscore allowed, for your app and folder example: helloWorld"
 wow4=helloWorld
@@ -251,13 +252,20 @@ ls -l
 echo "Look for you new android $wow4/bin $wow4-debug.apk"
 echo "rightclick run index.html, then preview-preview running application to view webpage with .apk"
 
-
+cd ~/workspace
 
 
 service apache2 start
 
+cd $wow4/platforms/android/assets/www
 
-echo "On the cloud9 menu look for Preview --> Preview running Application "
+echo "Here is your index.html main webpage in the $wow4/platforms/android/assets/www folder"
+ls -l
+
+cd ~/workspace
+
+echo "All done"
+echo "On the cloud9 menu look for Preview --> Preview running Application to load your .apk on your Android 4.4 KitKat device"
 
 
 
