@@ -54,6 +54,19 @@ phonegap platform add android
 phonegap plugin add https://github.com/xseignard/cordovarduino.git
 
 
+cp serial_communication.css /home/ubuntu/workspace/SimpleSerialApp/www/css/serial_communication.css
+
+cp serial_communication.html /home/ubuntu/workspace/SimpleSerialApp/www/serial_communication.html
+
+
+cp serial_communication.js /home/ubuntu/workspace/SimpleSerialApp/www/js/serial_communication.js
+
+cp index.js /home/ubuntu/workspace/SimpleSerialApp/www/js/index.js
+
+
+
+
+
 
 phonegap build android
 
@@ -96,6 +109,7 @@ echo "Here is your index.html main webpage in the SimpleSerialApp/platforms/andr
 ls -l
 
 cd ~/workspace
+
 
 
 
