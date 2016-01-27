@@ -78,7 +78,7 @@ cd SimpleSerialApp
 cd platforms/android/build/outputs/apk/
 #https://phonegap-android-02-jerteach.c9users.io/helloWorld/platforms/android/build/outputs/apk/
 
-printf "\n\n<a href='SimpleSerialApp/platforms/android/ant-build/android-debug.apk'>SimpleSerialApp/platforms/android/ant-build/android-debug.apk</a><br>"  >> /home/ubuntu/workspace/index.html
+printf "\n\n<a href='SimpleSerialApp/platforms/android/ant-build/HelloWorld-debug.apk'>SimpleSerialApp/platforms/android/ant-build/HelloWorld-debug.apk</a><br>"  >> /home/ubuntu/workspace/index.html
 
 
 
@@ -95,7 +95,7 @@ cd ~/workspace
 
 
 
-echo "Look for you new android SimpleSerialApp/platforms/android/build/outputs/apk/"
+echo "Look for you new android SimpleSerialApp/platforms/android/ant-build/HelloWorld-debug.apk"
 echo "rightclick run index.html, then preview-preview running application to view webpage with .apk"
 
 
