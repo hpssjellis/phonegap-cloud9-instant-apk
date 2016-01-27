@@ -72,3 +72,37 @@ cd ~/workspace
 
 echo "Look for you new android $wow4/bin $wow4-debug.apk"
 echo "rightclick run index.html, then preview-preview running application to view webpage with .apk"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#notes Vendor=0x0403(FTDI) and Product ID=0x6010 (FT2232H) working.  S3 good
+
+
+#<resources>
+#<!--  0x0403 / 0x6001: FTDI FT232R UART  -->
+#<usb-device vendor-id="1027" product-id="24577"/>
+#<!--  0x2341 / Arduino  -->
+#<usb-device vendor-id="9025"/>
+#<!--  0x16C0 / 0x0483: Teensyduino   -->
+#<usb-device vendor-id="5824" product-id="1155"/>
+#<!--  0x10C4 / 0xEA60: CP210x UART Bridge  -->
+#<usb-device vendor-id="4292" product-id="60000"/>
+#</resources>
+
+
+#git clone https://code.google.com/p/usb-serial-for-android/
