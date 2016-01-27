@@ -4,6 +4,9 @@
 #  bash a03-serial-usb-rocksetta.sh
 # best in cloud 9 to just right click this file and select run
 
+# http://dynamicremo.blogspot.ca/2015/07/simple-serial-communication-app-using.html
+
+echo "you have got to read http://dynamicremo.blogspot.ca/2015/07/simple-serial-communication-app-using.html"
 
 echo "Enter a folder name, no spaces, no dashes, underscore allowed, for your app and folder example: helloWorld"
 read wow4
