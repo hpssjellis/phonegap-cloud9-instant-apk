@@ -1,7 +1,7 @@
 #!/bin/bash  
 
 #  only need to run this script with the command (do not type the #)
-#  bash a04-SimpleSerialApp-rocksetta.sh
+#  bash a03-serial-usb-rocksetta.sh
 # best in cloud 9 to just right click this file and select run
 
 # http://dynamicremo.blogspot.ca/2015/07/simple-serial-communication-app-using.html
@@ -78,7 +78,7 @@ cd SimpleSerialApp
 cd platforms/android/build/outputs/apk/
 #https://phonegap-android-02-jerteach.c9users.io/helloWorld/platforms/android/build/outputs/apk/
 
-printf "\n\n<a href='SimpleSerialApp/platforms/android/build/outputs/apk/android-debug.apk'>SimpleSerialApp/platforms/android/build/outputs/apk/android-debug.apk</a><br>"  >> /home/ubuntu/workspace/index.html
+printf "\n\n<a href='SimpleSerialApp/platforms/android/ant-build/android-debug.apk'>SimpleSerialApp/platforms/android/ant-build/android-debug.apk</a><br>"  >> /home/ubuntu/workspace/index.html
 
 
 
