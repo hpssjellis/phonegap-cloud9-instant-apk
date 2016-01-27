@@ -6,6 +6,15 @@
 
 # http://dynamicremo.blogspot.ca/2015/07/simple-serial-communication-app-using.html
 
+echo "A bit redundant but cordova can be installed as well"
+#npm install -g cordova
+
+#https://github.com/DynamicRemo/SimpleSerialApp.git
+
+
+
+
+
 echo "you have got to read http://dynamicremo.blogspot.ca/2015/07/simple-serial-communication-app-using.html"
 
 echo "Enter a folder name, no spaces, no dashes, underscore allowed, for your app and folder example: helloWorld"
@@ -34,15 +43,52 @@ phonegap create $wow4 --name $wow4 --id com.$wow4.$wow4
 cd $wow4
 
 
+#phonegap create SimpleSerialApp com.dynamicremo.simpleserialapp SimpleSerialApp
+#cd SimpleSerialApp
+
+#phonegap plugin add https://github.com/xseignard/cordovarduino.git
+
+#phonegap platform add android
+
+#phonegap build android
+
 
 
 #phonegap plugin add https://github.com/xseignard/cordovarduino.git
 
-#phonegap plugin add https://github.com/randynwalsh/cordovarduino.git   
+#phonegap plugin add https://github.com/randynwalsh/cordovarduino.git 
 
-phonegap plugin add https://github.com/fabiomig/serialport-plugin.git
+#phonegap plugin add https://github.com/fabiomig/serialport-plugin.git
+
 
 phonegap platform add android
+
+phonegap plugin add https://github.com/xseignard/cordovarduino.git
+
+
+cd ..
+
+
+cp serial_communication.css /home/ubuntu/workspace/SimpleSerialApp/www/css/serial_communication.css
+
+cp serial_communication.html /home/ubuntu/workspace/SimpleSerialApp/www/serial_communication.html
+
+
+cp serial_communication.js /home/ubuntu/workspace/SimpleSerialApp/www/js/serial_communication.js
+
+cp index.js /home/ubuntu/workspace/SimpleSerialApp/www/js/index.js
+
+
+cd $wow4
+
+
+
+
+
+
+
+
+
 
 phonegap build android
 
