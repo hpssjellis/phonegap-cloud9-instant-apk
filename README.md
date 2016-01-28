@@ -29,6 +29,8 @@ a02-install-android-sdk-platforms-rocksetta.sh
 
 a03-serial-usb-rocksetta.sh	
 This one does not yet work Jan 26, 2016
+actually moved it to it's own github site at 
+https://github.com/hpssjellis/android-arduino-serial-usb
 
 
 
