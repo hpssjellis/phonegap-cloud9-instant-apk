@@ -14,6 +14,12 @@ or in a terminal
 
 bash setup.sh
 
+Accept several Android licenses. Type Y to accept and enter
+
+The last line should be a clickable link to your .apk android debug app on a webpage to load on your cell phone.
+
+
+OR
 
 Then on the menu find preview --> Preview Running Application to find your .apk to load on your phone.
 
@@ -21,10 +27,10 @@ Then on the menu find preview --> Preview Running Application to find your .apk 
 other helper rocksetta files you can also run.
 
 
-a01-create-app-rocksetta.sh	
+a01-create-app-rocksetta.sh	allows you to enter the folder name for a new app
 
 
-a02-install-android-sdk-platforms-rocksetta.sh
+a02-install-android-sdk-platforms-rocksetta.sh allows you to enter more android SDK files
 
 
 a03-serial-usb-rocksetta.sh	
